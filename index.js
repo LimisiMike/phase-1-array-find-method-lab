@@ -60,22 +60,8 @@ const record = [
     { year: "1960", result: "N/A"}
   ]
 
-// const yearW = record.find(({year}) => year === {result: "W"});
-
 function superbowlWin(record){
   const goalYear = record.find(game => game.result === "W");
   return goalYear ? goalYear.year : undefined
 }
-//     for(let item of record){
-//         // const sadReality = [ { result: `${W}` }, { result: `${L}` }, { result: `${N/A}`} ]
 
-//         if(item.year ==={ result: "W" }){
-//             console.log(item.year)
-//             return item.year
-//         }else{
-//             return undefined
-//         }
-//     }
-
-// }
-// record.find(superbowlWin);
